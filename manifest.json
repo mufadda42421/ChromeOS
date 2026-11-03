@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "ChromeOS — Intelligent Browser Workspace",
+  "version": "1.0.0",
+  "description": "Transforms traditional Chrome browsing into a futuristic, intelligent, categorized workspace with dynamic robot mascots.",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage",
+    "sidePanel",
+    "bookmarks",
+    "history",
+    "sessions"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "ChromeOS Workspace",
+    "default_popup": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "side_panel": {
+    "default_path": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

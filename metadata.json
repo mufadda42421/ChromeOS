@@ -1,0 +1,6 @@
+{
+  "name": "ChromeOS - Intelligent Browser Workspace",
+  "description": "Transform Google Chrome into a futuristic browser operating system with intelligent tab categorization, dynamic robot mascots, and custom visual workspaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
